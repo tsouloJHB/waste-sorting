@@ -148,21 +148,6 @@ The application uses H2 for data persistence during development. To access the H
 
 You can update these properties in `src/main/resources/application.properties`.
 
----
-
-## Submission Instructions
-1. Push your code to a GitHub repository.
-2. Submit the repository link on [eTalente](https://www.etalente.co.za).
-
----
-
-## Additional Notes
-- Ensure your code includes comments explaining key design decisions.
-- Follow best practices for Object-Oriented Design.
-- Be prepared to discuss your design choices during a subsequent interview.
-
----
-
 ## Contact
-For any questions or assistance, please contact the Enviro365 team.
+For any questions or assistance, please contact the Tsoulo@student.wethink.co.za.
 
