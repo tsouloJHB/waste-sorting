@@ -82,6 +82,20 @@ docker run -p 8080:8080 waste-sorting-app
 
 The application will now be accessible at `http://localhost:8080`.
 
+##Access Swagger API Documentation
+Once the application is running, you can access the Swagger UI for API documentation and testing via the following URL in your web browser:
+
+http://localhost:8080/swagger-ui/index.html
+
+How to Run Tests
+1. Running Unit Tests Locally
+You can run the tests for the application using Maven with the following command:
+
+
+```bash
+mvn test
+```
+
 ---
 
 ## Project Structure
