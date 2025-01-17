@@ -87,14 +87,25 @@ Once the application is running, you can access the Swagger UI for API documenta
 
 http://localhost:8080/swagger-ui/index.html
 
-How to Run Tests
-1. Running Unit Tests Locally
+### How to Run Tests
+### 1. Running Unit Tests Locally
 You can run the tests for the application using Maven with the following command:
 
 
 ```bash
 mvn test
 ```
+### 2. Running Specific Tests
+To run specific tests, use the following command:
+
+```bash
+mvn -Dtest=<TestClassName>#<TestMethodName> test
+```
+For example, to run a test method testWasteCategoryRetrieval from the WasteCategoryServiceTest class:
+```bash
+mvn -Dtest=WasteCategoryServiceTest#testWasteCategoryRetrieval test
+```
+
 
 ---
 
